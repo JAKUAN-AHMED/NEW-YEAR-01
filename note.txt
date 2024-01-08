@@ -1,1 +1,2 @@
 use padding after all styles
+i have to change some text like date time etc 

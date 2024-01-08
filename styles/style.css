@@ -161,20 +161,127 @@
 }
 .join:hover
 {
-    /* color: antiquewhite; */
     color: blue;
-    background-size: 150%;
+    background-size:150%;
 }
-.fd-party
+.content 
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    
+    height: 100vh;
+    padding: 0 100px;
+  }
+  
+  .main-text, .main-text-1
+  {
+    padding: 80px 60px;
+    max-width: 50%;
+  }
+  
+  .main-text p {
+    color: rgba(7, 2, 17, 0.60);
+  }
+  
+  .main-text h3 {
+    color: red;
+  }
+  .main-text-1 h1
+  {
+    color: red;
+  }
+  .main-text-1 p{
+    color: rgba(7, 2, 17, 0.60);
+  }
+  .fd-party {
+    background-color: red;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+  }
+  
+  .white-content {
+    background-color: white;
+    border-radius: 50%;
+    height: 249px;
+    width: 249px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .whc-img 
+  {
+    width: 220px;
+    height: 220px;
+  }
+
+
+.txt-s3
+{
+    /* text-align: left; */
+    padding-left: 35px;
+}
+.txt-s3 h2
+{
+    color: red;
+}
+.txt-s3 h1
+{
+    font-size: 35px;
+}
+.txt-s3 p
+{
+    color: rgba(7, 2, 17, 0.60);
+}
+.third-img
+{
+    display: inline-block;
+    padding-left: 35px;
+    width: 100%;
+}
+.last-section 
+{
+    text-align: center;
+    padding-top:120px;
+}
+.last-section h1
+{
+    font-size: 40px;
+}
+.last-section p{
+    color: rgba(7, 2, 17, 0.60);
+    padding: 20px;
+}
+.subscribe-form 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
 }
 
+.email-input 
+{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
-
-
-
+.subscribe-btn 
+{
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.subscribe-btn:hover
+{
+    background-color: gold;
+    background-size: 60px;
+    -webkit-text-fill-color: #070211;
+}

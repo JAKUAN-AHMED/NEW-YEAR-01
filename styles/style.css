@@ -1,13 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
-*
+/* *
 {
     margin: 0px;
     padding: 0px;
-}
-/* common shared styles */
-/* body
-{
-    font-family: 'Montserrat', sans-serif;
 } */
 /* banner styles */
 
@@ -20,7 +14,7 @@
     margin-left: 40px;
     margin-bottom: 100px;
     border-radius: 16px;
-    /* justify-content: center;       */
+  
 }
 .banner-heading
 {
@@ -46,7 +40,8 @@
 
     
 }
-.image{
+.image
+{
     margin-left: 280px;
 }
 .section-2-h1
@@ -72,64 +67,61 @@
     font-size: 35px;
     font-weight: 700;
 }
-.seciton-3-img {
-    position: relative;
-    text-align: center;
-    font-size: large;
+/* section-3 */
+
+.sec-3 {
+    background-image: url('../assets/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    margin-top: 5%;
 }
 
-.section-3-text {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    font-size: 65px;
-    color: white;
-    /* margin-bottom: 60px; */
-    transform: translate(-50%, -50%);
-}
-.section-3-txt-3
+.sec-3-banner 
 {
-    position: absolute;
-    top: 60%;
-    left: 25%;
-    font-size: 65px;
-    color: white;
-    /* margin-bottom: 60px; */
-    padding-left: 100px;
-    transform: translate(-50%, -50%);
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
 }
-.pe-1{
-    position: absolute;
-    top: 75%;
-    left: 25%;
-    font-size: 15px;
-    color: white;
-    padding-left: 100px;
-    transform: translate(-50%, -50%);
-}
-.pe-2{
-    position: absolute;
-    top: 78%;
-    left: 25%;
-    font-size: 15px;
-    color: white;
-    padding-left: 165px;
-    transform: translate(-50%, -50%);
-}
-.txt-4
+
+.content 
 {
-    position: absolute;
-    top: 88%;
-    left: 25%;
-    font-size: 15px;
-    color: white;
-    padding-right: 230px;
-    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.txt-4:hover{
+
+.text 
+{
+    width: 45%;
+    color: white; 
+    position: absolute;
+    padding-right: 30%;
+    padding-top: 20%;
+}
+.txt-4:hover
+{
     color: blue;
-    background-size: 150%;
+    background-size: 50%;
 }
+.image-1
+{
+    width: 29%;
+    padding-left: 700px;
+    padding-top: 50px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+/* extra design for text -sec-3 */
+
+
 .section-4
 {
     background-color:wheat;
@@ -343,6 +335,7 @@ footer
     height: 50px;
     gap: 10px;
     padding-top: 100px;
+
 }
 .foot-another-p
 {

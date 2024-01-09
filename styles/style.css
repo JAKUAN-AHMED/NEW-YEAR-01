@@ -10,6 +10,7 @@
     font-family: 'Montserrat', sans-serif;
 } */
 /* banner styles */
+
 .banner
 {
     background-image: url('../assets/banner.png');
@@ -179,11 +180,13 @@
     max-width: 50%;
   }
   
-  .main-text p {
+  .main-text p 
+  {
     color: rgba(7, 2, 17, 0.60);
   }
   
-  .main-text h3 {
+  .main-text h3 
+  {
     color: red;
   }
   .main-text-1 h1
@@ -193,7 +196,8 @@
   .main-text-1 p{
     color: rgba(7, 2, 17, 0.60);
   }
-  .fd-party {
+  .fd-party 
+  {
     background-color: red;
     border-radius: 50%;
     height: 250px;
@@ -201,7 +205,8 @@
     padding: 20px;
   }
   
-  .white-content {
+  .white-content
+  {
     background-color: white;
     border-radius: 50%;
     height: 249px;
@@ -285,7 +290,8 @@
     background-size: 60px;
     -webkit-text-fill-color: #070211;
 }
-footer{
+footer
+{
     display: flex;
     padding: 100px;
     gap: 100px;
@@ -298,7 +304,8 @@ footer{
 .call{
     display: flex;
 }
-.call img{
+.call img
+{
     padding-top: 15px;
     padding-right: 2px;
 }
@@ -306,7 +313,38 @@ footer{
 {
     display: flex;
 }
-.web img{
+.web img
+{
     padding-top: 10px;
     padding-right: 2px;
+}
+.another
+{
+    display: inline;
+    padding-left: 400px;
+}
+.another-p
+{
+    padding-left: 100px;
+    padding-top: 200px;
+    -webkit-text-fill-color: black;
+    border-radius: 15px;
+}
+.another-p:hover
+{
+    color: blue;
+    background-size:150%;
+    -webkit-text-fill-color: red;
+}
+.foot-img
+{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    gap: 10px;
+    padding-top: 100px;
+}
+.foot-another-p
+{
+    padding-top: 200px;
 }
